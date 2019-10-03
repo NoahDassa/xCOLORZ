@@ -1,0 +1,196 @@
+
+
+html {
+  margin:0;
+  padding:0;
+  background: url('../../images/marjag.jpg') no-repeat fixed;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color:black;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border:2px solid black;
+}
+
+body {
+
+  background-color: rgba(0, 0, 3, 0.60);
+  position: fixed;
+  margin:0;
+  padding:0;
+  border:2px solid black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  display:grid;
+  grid-template-columns:1fr minmax(0px,340px) 1fr;
+  grid-template-rows:80px 260px 200px 100px; 
+}
+
+#title{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size:30px;
+  font-family:'Lato','roboto','cinzel';
+  color:white;
+  font-weight:100;
+
+}
+
+#a:hover {
+  color:black;
+}
+#b:hover {
+  color: crimson;
+}
+#c:hover {
+  color: black;
+}
+
+
+.btn {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width: 100%;
+  cursor: pointer;
+  font-size: 44px;
+  letter-spacing:10px;
+  font-weight: 900;
+  font-family:cinzel;
+  font-weight: 100;
+}
+
+.btn:hover {
+  font-weight: 500;
+  letter-spacing: 15px;
+}
+
+* {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+}
+
+
+#signUp_or_logIn {
+  display:grid;
+  grid-template-rows:1fr 1fr;
+}
+
+#signUp_or_logIn  > div {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#signUp_or_logIn  > div > button {
+  height:70px;
+  width:100px;
+  border-radius:7px;
+  font-size:16px;
+}
+
+
+#signUp_button {
+  background: radial-gradient(circle, rgba(40, 250, 129) 0%, rgb(0, 255, 139) 100%);
+  font-weight:bold;
+  border:1px solid black;
+}
+
+#login_button {
+  font-size:.95em;
+  font-family:'Lato','roboto';
+  background-color:#444857;
+  color:white;
+  border:2px solid rgba(40,40,40,.7);
+}
+
+
+/* hide these inputs at landing until requested */
+
+form > div {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login_username, #login_password, #login_User {
+  display:none;
+}
+
+#login_username, #login_password {
+  background-color:rgb(255,255,255,.4);
+  color:rgb(226, 226, 226);
+  font-size:.8em;
+  padding:14px;
+  border-radius:4px;
+  border: 1px solid black;
+  margin-bottom:15px;
+}
+
+#login_username::placeholder , #login_password::placeholder {
+  color:rgba(255, 255, 255,.85);
+}
+
+#login_User {
+  background-color:aqua;
+  border:1px solid blue;
+  height:70px;
+  width:100px;
+  margin-top:60px;
+  border-radius:7px;
+  font-size:16px;
+  font-weight:500;
+}
+
+
+#login_message {
+  text-align:center;margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
