@@ -7,6 +7,8 @@ require_once '../../general/header.php';
 
 <link rel="stylesheet" href="index.css">
 <script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
 <!-- dependencies for sign up modal -->
 <?php  
