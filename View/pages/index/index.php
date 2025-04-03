@@ -35,7 +35,7 @@ require_once '../index/signUp/modal.php'  ?>
     <div></div>  <!-- 6 -->
     <div id="signUp_or_logIn">
       <!-- form that appears at landing -->
-      <div><button id="signUp_button" onclick="openModal()">Sign Up</button></div>
+      <div><button id="signUp_modal" onclick="openModal()">Sign Up</button></div>
       <div><button  id="login_button" onclick="display_loginForm()">Log In</button></div>
       <!-- form that appears when user chooses to log in -->
       <form method="post" action="../../pages/profile/profile.php" id="login_form" onsubmit="return false">
